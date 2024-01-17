@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* мой код */
+body {
+  background-color: #000000;
+}
+
+.header {
+  width: 1872px;
+  height: 88px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  /* border-radius: 1%; */
+  margin-bottom: 10px;
+}
+
+.block-central {
+  width: 1872px;
+  height: 3350px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
+.additional-block {
+  width: 1872px;
+  height: 346px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 1872px;
+  height: 1018px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 1%;
+}
