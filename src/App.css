@@ -43,12 +43,52 @@ body {
 }
 
 .header {
+  display: flex;
   width: 1872px;
   height: 88px;
   background-color: #f2f2f2;
   margin: 0 auto;
   /* border-radius: 1%; */
   margin-bottom: 10px;
+}
+
+.logo {
+  width: 196px;
+  height: 56px;
+  border: 1px solid black;
+}
+
+.header-search {
+  width: 1086px;
+  height: 56px;
+  border: 1px solid black;
+}
+
+.select-delivery-address {
+  width: 358px;
+  height: 56px;
+  border: 1px solid black;
+}
+
+.button-1 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.button-2 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.button-3 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 .block-central {
@@ -59,6 +99,41 @@ body {
   border-radius: 1%;
   margin-bottom: 10px;
 }
+
+.product-categories {
+  width: 250px;
+  height: 154px;
+  border: 1px solid black;
+  /* margin: 0 auto; */
+}
+
+.banner {
+  width: 976px;
+  height: 243px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.search {
+  width: 976px;
+  height: 56px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.choice-of-colors {
+  display: flex;
+  width: 976px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.button-roses {}
+
+.button-boxes {}
+
+.button-bouquets {}
 
 .additional-block {
   width: 1872px;
