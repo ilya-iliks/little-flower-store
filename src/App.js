@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
+import Roses from "./components/Roses/Roses";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <div className="header">
@@ -16,12 +17,13 @@ function App() {
         <div className="product-categories">Категории товаров</div>
         <div className="banner">banner</div>
         <div className="search">search</div>
-        <p>Букеты</p>  {/* w186xh70 */}
+        <p>Букеты</p> {/* w186xh70 */}
         <div className="choice-of-colors">
           <div className="button-roses">roses</div>
           <div className="button-boxes">boxes</div>
           <div className="button-bouquets">bouquets</div>
         </div>
+        <Roses roseData={props.state.roseData} />
       </div>
       <div className="additional-block"></div>
       <div className="footer"></div>
@@ -31,3 +33,5 @@ function App() {
 
 export default App;
 
+// на сегодня в гите можно прокоментить
+// - работа над версткой heder и block-central проекта
