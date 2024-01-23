@@ -78,7 +78,7 @@ body {
 }
 
 .button-2 {
-  width: 56px;
+  width: 56px; 
   height: 56px;
   border: 1px solid black;
   border-radius: 50%;
@@ -129,11 +129,23 @@ body {
   margin: 0 auto;
 }
 
-.button-roses {}
+.button-roses {
+  width: 80px;
+  height: 40px;
+  border: 1px solid black;
+}
 
-.button-boxes {}
+.button-boxes {
+  width: 108px;
+  height: 40px;
+  border: 1px solid black;
+}
 
-.button-bouquets {}
+.button-bouquets {
+  width: 96px;
+  height: 40px;
+  border: 1px solid black;
+}
 
 .additional-block {
   width: 1872px;

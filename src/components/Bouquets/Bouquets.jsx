@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Roses.module.css";
+import styles from "./Bouquets.module.css";
 
-const Roses = (props) => {
+const Bouquets = (props) => {
   return (
     <div className={styles.content}>
       <div >
-        {props.roseData.map((img) => (
+        {props.flowersData.map((img) => (
           <a
             href="#"
             key={img.id}
@@ -28,4 +28,4 @@ const Roses = (props) => {
   );
 };
 
-export default Roses;
+export default Bouquets;
