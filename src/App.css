@@ -148,6 +148,7 @@ body {
 }
 
 .additional-block {
+  display: flex;
   width: 1872px;
   height: 346px;
   background-color: #f2f2f2;
@@ -156,10 +157,16 @@ body {
   margin-bottom: 10px;
 }
 
+.left-block {
+  width: 419px;
+  height: 346px;
+  border: 1px solid black;
+}
+
 .footer {
   width: 1872px;
   height: 1018px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   margin: 0 auto;
   border-radius: 1%;
 }

@@ -3,6 +3,7 @@ import "./App.css";
 import Bouquets from "./components/Bouquets/Bouquets";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
+import banner from "../src/assets/Test/banner.jpg";
 
 function App(props) {
   return (
@@ -19,6 +20,8 @@ function App(props) {
         <div className="block-central">
           <div className="product-categories">Категории товаров</div>
           <div className="banner">banner</div>
+          <img src={banner} className="banner" alt="test" />{" "}
+          {/*  тестовый баннер криво работает */}
           <div className="search">search</div>
           <p>Букеты</p> {/* w186xh70 */}
           <div className="choice-of-colors">
@@ -29,7 +32,9 @@ function App(props) {
               <Link to="/buttonBoxes">Коробки</Link>
             </div>
             <div className="button-bouquets">
-              <Link to="/buttonBouquets" className="button-bouquets">Букеты</Link>
+              <Link to="/buttonBouquets" className="button-bouquets">
+                Букеты
+              </Link>
             </div>
           </div>
           <Routes>
@@ -50,8 +55,20 @@ function App(props) {
           {/* <Bouquets flowersData={props.state.boxesData} /> */}
           {/* <Bouquets flowersData={props.state.bouquetsData} /> */}
         </div>
-        <div className="additional-block"></div>
-        <div className="footer"></div>
+        <div className="additional-block">
+          <div className="left-block">
+            <div>Проще, чем открыть холодильник</div>
+            <div>
+              Еда уже близко. Устанавливай приложение Broniboy и закажи еду из
+              любимого ресторана прямо сейчас!
+            </div>
+            <div>Установить приложение</div>
+          </div>
+          <div className="left-block">Картинка телефона</div>
+        </div>
+        <div className="footer">
+          <div></div>
+        </div>
       </div>
     </BrowserRouter>
   );
