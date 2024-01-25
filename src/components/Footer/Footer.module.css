@@ -1,0 +1,28 @@
+.content {
+  position: relative;
+  max-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 635px;
+  border: 1px solid black;
+
+  width: 840px; /* мое новое  */
+  height: 1190px; /* мое новое  */
+
+ 
+}
+
+.header {
+  color: white;
+}
+
+.editor_selections_item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: 1px solid black;
+  /* color: #788a8a; */
+  color: gray;
+
+}

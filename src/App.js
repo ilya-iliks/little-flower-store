@@ -4,6 +4,7 @@ import Bouquets from "./components/Bouquets/Bouquets";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import banner from "../src/assets/Test/banner.jpg";
+import Footer from "./components/Footer/Footer";
 
 function App(props) {
   return (
@@ -66,13 +67,18 @@ function App(props) {
           </div>
           <div className="left-block">Картинка телефона</div>
         </div>
-        <div className="footer">
+        {/* <div className="footer">
           <div></div>
-        </div>
+        </div> */}
+        <Footer
+          footerOrderData={props.state.footerOrderData}
+          footerPopularPlacesData={props.state.footerPopularPlacesData}
+          footerCitiesData={props.state.footerCitiesData}
+          footerAboutTheCompanyData={props.state.footerAboutTheCompanyData}
+        />
       </div>
     </BrowserRouter>
   );
 }
 
 export default App;
-
