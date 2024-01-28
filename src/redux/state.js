@@ -3,22 +3,32 @@ let state = {
     {
       id: 1,
       image: require("../assets/Pictures-of-roses/roses-400х400-1.jpg"),
+      text: "15 белых роз",
+      button: "+ 2 320₽",
     },
     {
       id: 2,
       image: require("../assets/Pictures-of-roses/roses-400х400-2.jpg"),
+      text: "25 белых роз в упаковке",
+      button: "+ 3 835₽",
     },
     {
       id: 3,
       image: require("../assets/Pictures-of-roses/roses-400х400-3.jpg"),
+      text: "51 белая роза",
+      button: "+ 6 500₽",
     },
     {
       id: 4,
       image: require("../assets/Pictures-of-roses/roses-400х400-4.jpg"),
+      text: "Микс белых и розовых роз 35 шт.",
+      button: "+ 5 250₽",
     },
     {
       id: 5,
       image: require("../assets/Pictures-of-roses/roses-400х400-5.jpg"),
+      text: "15 розовых роз",
+      button: "+ 2 320₽",
     },
   ],
 

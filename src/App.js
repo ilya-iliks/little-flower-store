@@ -27,10 +27,10 @@ function App(props) {
           <p>Букеты</p> {/* w186xh70 */}
           <div className="choice-of-colors">
             <div className="button-roses">
-              <Link to="/buttonRoses">Розы</Link>
+              <Link to="/buttonRoses" className="button-roses">Розы</Link>
             </div>
             <div className="button-boxes">
-              <Link to="/buttonBoxes">Коробки</Link>
+              <Link to="/buttonBoxes" className="button-boxes">Коробки</Link>
             </div>
             <div className="button-bouquets">
               <Link to="/buttonBouquets" className="button-bouquets">

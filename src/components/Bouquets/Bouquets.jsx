@@ -4,7 +4,7 @@ import styles from "./Bouquets.module.css";
 const Bouquets = (props) => {
   return (
     <div className={styles.content}>
-      <div >
+      <div>
         {props.flowersData.map((img) => (
           <a
             href="#"
@@ -19,9 +19,11 @@ const Bouquets = (props) => {
                 backgroundImage: `url(${img.image})`,
               }}
             >
-              {/* <p>{img.nameCardTitle}</p> это надпист на картинке вроде пока не нужна */}
+              
             </div>
-          </a>
+            <p>{img.text}</p> {/*это надпист на картинке вроде пока не нужна */}
+            <div className={styles.button}>{img.button}</div>
+          </a> 
         ))}
       </div>
     </div>
