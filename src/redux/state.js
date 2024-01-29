@@ -35,46 +35,84 @@ let state = {
   boxesData: [
     {
       id: 1,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-1.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 2,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-2.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 3,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-3.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 4,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-4.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 5,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-5.jpg"),
+      text: "нет текста",
+      button: "нет цены",
+    },
+    {
+      id: 6,
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-6.jpg"),
+      text: "нет текста",
+      button: "нет цены",
+    },
+    {
+      id: 7,
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-7.jpg"),
+      text: "нет текста",
+      button: "нет цены",
+    },
+    {
+      id: 8,
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-8.jpg"),
+      text: "нет текста",
+      button: "нет цены",
+    },
+    {
+      id: 9,
+      image: require("../assets/Pictures-of-boxes/boxes-400х400-9.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
   ],
 
   bouquetsData: [
     {
       id: 1,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-bouquets/bouquets-400х400-1.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 2,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-bouquets/bouquets-400х400-2.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 3,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-bouquets/bouquets-400х400-3.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
     {
       id: 4,
-      image: require("../assets/Test/test.png"),
-    },
-    {
-      id: 5,
-      image: require("../assets/Test/test.png"),
+      image: require("../assets/Pictures-of-bouquets/bouquets-400х400-4.jpg"),
+      text: "нет текста",
+      button: "нет цены",
     },
   ],
 
@@ -104,7 +142,7 @@ let state = {
       text: "Рестораны и кафе",
     },
     {
-      id: 7,
+      id: 7, 
       text: "Одежда",
     },
   ],
