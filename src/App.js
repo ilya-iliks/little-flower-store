@@ -5,11 +5,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import banner from "../src/assets/Test/banner.jpg";
 import Footer from "./components/Footer/Footer";
+import Test from "./components/Test/Test";
 
 function App(props) {
   return (
     <BrowserRouter>
       <div className="App">
+        {/* тест */}
+        <Test />
+        {/* тест */}
         <div className="header">
           <div className="logo">logo</div>
           <div className="header-search">search</div>
@@ -27,10 +31,14 @@ function App(props) {
           <p>Букеты</p> {/* w186xh70 */}
           <div className="choice-of-colors">
             <div className="button-roses">
-              <Link to="/buttonRoses" className="button-roses">Розы</Link>
+              <Link to="/buttonRoses" className="button-roses">
+                Розы
+              </Link>
             </div>
             <div className="button-boxes">
-              <Link to="/buttonBoxes" className="button-boxes">Коробки</Link>
+              <Link to="/buttonBoxes" className="button-boxes">
+                Коробки
+              </Link>
             </div>
             <div className="button-bouquets">
               <Link to="/buttonBouquets" className="button-bouquets">
