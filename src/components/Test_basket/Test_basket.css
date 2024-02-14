@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+}
+
+.shop-cart {
+  position: absolute; /*абсолютное позиционирование  относительно всего компонета*/
+  top: 30px;
+  right: 0;
+  width: 450px;
+  min-height: 100px;
+  background-color: blueviolet;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;  /* скопировал с генератора теней */
+  box-shadow: 5px 5px 15px 5px #000000;/* скопировал с генератора теней */
+  z-index: 1000; /* для отображения блока по верх всего*/
+}

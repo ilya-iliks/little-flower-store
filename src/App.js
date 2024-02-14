@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import banner from "../src/assets/Test/banner.jpg";
 import Footer from "./components/Footer/Footer";
 import Test from "./components/Test/Test";
+import Test_basket from "./components/Test_basket/Test_basket";
 
 function App(props) {
   return (
@@ -13,6 +14,7 @@ function App(props) {
       <div className="App">
         {/* тест */}
         <Test />
+        <Test_basket />
         {/* тест */}
         <div className="header">
           <div className="logo">logo</div>
